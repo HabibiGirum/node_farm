@@ -1,17 +1,26 @@
 {
   "name": "node_farm",
   "version": "1.0.0",
-  "description": "",
-  "main": "1-name.js",
+  "description": "node farm project",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon"
+    "start": "node server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HabibiGirum/node_farm.git"
+  },
   "author": "Habtamu",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HabibiGirum/node_farm/issues"
+  },
+  "homepage": "https://github.com/HabibiGirum/node_farm#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
   "dependencies": {
-    "nodemon": "^2.0.21",
-    "uuid": "^9.0.0"
+    "slugify": "^1.6.5"
   }
 }
