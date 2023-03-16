@@ -1,16 +1,17 @@
 {
-  "name": "backend",
+  "name": "node_farm",
   "version": "1.0.0",
   "description": "",
   "main": "1-name.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon"
   },
   "keywords": [],
-  "author": "",
+  "author": "Habtamu",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.21"
+    "nodemon": "^2.0.21",
+    "uuid": "^9.0.0"
   }
 }
