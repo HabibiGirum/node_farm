@@ -3,9 +3,7 @@ const http = require('http');
 const url = require('url');
 const replaceTemplate = require('./modules/replaceTemplate');
 // const slugify = require('slugify');
-
 const port = process.env.PORT|| 8080;
-
 const tempOverview = fs.readFileSync(`${__dirname}/templates/template-overview.html`,'utf-8');
 const tempCard = fs.readFileSync(`${__dirname}/templates/template-card.html`,'utf-8');
 const tempProduct = fs.readFileSync(`${__dirname}/templates/template-product.html`,'utf-8');
